@@ -28,8 +28,8 @@ const createAdmin = async () => {
     console.log('MongoDB Connected for admin creation...');
 
     // --- Data Admin Baru ---
-    const adminUsername = 'admin';
-    const adminPassword = 'admin123'; // Ganti dengan password yang kuat
+    const adminUsername = 'adminramian';
+    const adminPassword = 'adminramian2025'; // Ganti dengan password yang kuat
     const adminName = 'Administrator';
     // -----------------------
 
