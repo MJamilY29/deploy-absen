@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Test</title>
+</head>
+<body>
+
+  <h1>Login Test</h1>
+
+  <form onsubmit="loginTest(event)">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <script>
+    function loginTest(event) {
+      event.preventDefault();
+      alert("Form submitted!");
+    }
+  </script>
+
+</body>
+</html>
